@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Generate a Personal ToDoList">
+    <meta name="description" content="Register to get Your very own personal To Do List that is super EZ to use!">
+    <meta name="author" content="DMC">
+    <title>Register!!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Favicons -->
+    <link rel="icon" href="images/todolist.svg">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    <main class="form-signin">
+      <form action="/" method="POST">
+        <img class="mb-4 text-center" src="images/todolist.svg" alt="" width="100">
+        <h1 class="h3 mb-3 fw-normal formhead">Please Enter details to generate your personal To Do list link!</h1>
+
+        <input type="text" name="fname" class="form-control top" placeholder="Full Name" required autofocus autocomplete="off">
+        <input type="text" name="nname" class="form-control mid" placeholder="nickname" required autocomplete="off">
+        <input type="email" name="email" class="form-control bottom" placeholder="Email address" required autocomplete="off">
+
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Send me a link!</button>
+        <p class="mt-4 mb-4 text-muted"> Your email ID and personal information will be kept anonymous so feel free to register yourself :D</p>
+      </form>
+      <p class="text-muted footnote">&copy; 2021: Made with ❤ by <a href="https://dhruvchavda.github.io/me/" target="_blank">DMC</a> </p>
+    </main>
+  </body>
+</html>
