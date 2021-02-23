@@ -97,5 +97,5 @@ app.post("/failure", function(req, res){
 
 // starting server (dynamic port)
 app.listen(process.env.PORT || 3000, ()=>{
-    console.log("Server started at port 3000");
+    console.log("Server started ");
 });
