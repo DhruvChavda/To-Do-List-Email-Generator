@@ -64,7 +64,6 @@ app.post("/", (req, res)=>{
     {
       res.sendFile(__dirname+"/failure.html");
     }
-    console.log("Message sent: %s", info.messageId);
     res.sendFile(__dirname+"/success.html");
   });
 });
