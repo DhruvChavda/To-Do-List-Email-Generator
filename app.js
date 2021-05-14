@@ -46,6 +46,7 @@ DMC`;
 
     let transporter = nodemailer.createTransport({
         service: "gmail",
+        port:465,
         auth: {
             user: process.env.AUTH_USER,
             pass: process.env.AUTH_PASS,
